@@ -1,0 +1,46 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    padding: 80px 40px;
+    /* More padding */
+    /* background-color: #f8f8f8; */
+    border-radius: 20px;
+    /* Rounded corners like newsletter */
+    margin: 40px 20px;
+    /* Space around section */
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); */
+    /* Soft shadow */
+}
+
+.feature-box {
+    text-align: center;
+    padding: 30px 20px;
+    /* More space inside card */
+    border-radius: 20px;
+    background-color: #fafafa;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
+    /* Card shadow */
+    /* transition: transform 0.3s ease; */
+}
+
+/* .feature-box:hover {
+    transform: translateY(-5px);
+    /* Lift on hover */
+/* } */
+*/ .feature-box img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #404040;
+}
